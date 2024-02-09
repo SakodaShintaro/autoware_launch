@@ -9,7 +9,7 @@
     default="/sensing/lidar/top/pointcloud_preprocessor/pointcloud_container"
     description="The target container to which lidar preprocessing nodes in localization be attached"
   />
-  <arg name="gnss_enabled"/>
+  <let name="gnss_enabled" value="true"/>
 
   <group>
     <include file="$(find-pkg-share tier4_localization_launch)/launch/localization.launch.xml">
