@@ -27,3 +27,10 @@
 
     # Threshold of grid size to split map pointcloud
     max_map_grid_size: 100.0
+
+    input_frame: ""
+    output_frame: ""
+    max_queue_size: 5
+    use_indices: false
+    latched_indices: false
+    approximate_sync: false

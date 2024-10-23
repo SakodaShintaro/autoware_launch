@@ -9,3 +9,7 @@
     min_z: -30.0
     max_z: 50.0
     negative: False
+    max_queue_size: 5
+    use_indices: false
+    latched_indices: false
+    approximate_sync: false
